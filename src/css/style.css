@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=fallback");
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+/* Additional styles */
+@import "additional-styles/utility-patterns.css";
+@import "additional-styles/range-slider.css";
+@import "additional-styles/toggle-switch.css";
+@import "additional-styles/flatpickr.css";
+@import "additional-styles/theme.css";
+
+@import "tailwindcss/utilities";
+
+.ant-modal-content {
+  border-radius: 20px !important;
+  /* background: red; */
+}
+.quill-editor .ql-container {
+  border: none !important;
+}
+.ql-toolbar.ql-snow {
+  /* border: 1px solid rgb(30, 58, 138); */
+  border: none !important;
+  border-bottom: 1px solid rgb(30, 58, 138) !important;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  padding: 0px !important;
+}
+.ql-container.ql-snow {
+  border: none !important;
+}
+/* ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  color: #fff;
+  border-color: #bb090b !important;
+  background: #bb090b !important;
+}
+.ant-btn-primary {
+  color: #fff;
+  border-color: #bb090b !important;
+  background: #bb090b !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+} */
